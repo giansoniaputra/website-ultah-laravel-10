@@ -5,15 +5,7 @@
     background-size: cover;
 }
 
-#first-card {
-    width: 90vw;
-    height: 85vh;
-    background-color: rgba(236, 204, 104,0.8);
-    box-shadow: 2px 2px 4px #000000;
-    scale :0 0;
-    opacity: 0;
-}
-#second-card {
+.transparan-card {
     width: 90vw;
     height: 85vh;
     background-color: rgba(236, 204, 104,0.8);
@@ -28,6 +20,7 @@
     font-size: 5vh;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    animation: cenat-cenut 2s ease-in-out infinite;
 }
 
 #photo {
@@ -35,7 +28,7 @@
 }
 .nama {
     font-family: 'Dancing Script', cursive;
-    font-size: 5vh;
+    font-size: 4vh;
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -93,5 +86,17 @@
     100% {
         scale: 0.3 0.3;
         opacity: 0;
+    }
+}
+
+@keyframes cenat-cenut {
+    0% {
+        scale : 1 1
+    }
+    50% {
+        scale : 1.03 1.03
+    }
+    100% {
+        scale : 1 1
     }
 }

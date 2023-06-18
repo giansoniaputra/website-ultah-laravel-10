@@ -28,7 +28,11 @@
                         <img src="/img/gian.png" class="img-thumbnail rounded-circle" alt="...">
                     </div>
                     <div class="col-sm-12">
-                        <div class="nama text-center">Nafisa Sya'ban Mubarok </div>
+                        <div class="card text-white rounded-pill">
+                            <div class="card-body rounded-pill" style="background-color:#ffa502">
+                                <marquee class="nama text-center">Nafisa Sya'ban Mubarok </marquee>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
