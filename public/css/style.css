@@ -1,0 +1,97 @@
+/* Image by <a href="https://www.freepik.com/free-photo/flat-lay-composition-wrapped-presents-with-copy-space_11304153.htm#query=birtday&position=33&from_view=search&track=sph">Freepik</a> */
+#background {
+    height: 100vh;
+    background-image: url("/img/flat-lay-composition-wrapped-presents-with-copy-space.jpg");
+    background-size: cover;
+}
+
+#first-card {
+    width: 90vw;
+    height: 85vh;
+    background-color: rgba(236, 204, 104,0.8);
+    box-shadow: 2px 2px 4px #000000;
+    scale :0 0;
+    opacity: 0;
+}
+#second-card {
+    width: 90vw;
+    height: 85vh;
+    background-color: rgba(236, 204, 104,0.8);
+    box-shadow: 2px 2px 4px #000000;
+    scale :0 0;
+    opacity: 0;
+}
+
+.happy {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#photo {
+    width: 35vh;
+}
+.nama {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@keyframes zoom-in {
+    0% {
+        scale: 0.3 0.3;
+        opacity: 0;
+    }
+    50% {
+        opacity: 80%;
+    }
+    80% {
+        scale : 1.02 1.02;
+    }
+    100% {
+        scale: 1 1;
+        opacity: 100%;
+    }
+}
+@keyframes zoom-in-2 {
+    0% {
+        scale: 3 3;
+        opacity: 0;
+    }
+    50% {
+        opacity: 80%;
+    }
+    100% {
+        scale: 1 1;
+        opacity: 100%;
+    }
+}
+@keyframes zoom-out {
+    0% {
+        scale: 1 1;
+        opacity: 100%;
+    }
+    50% {
+        opacity: 20%;
+    }
+    100% {
+        scale: 3 3;
+        opacity: 0;
+    }
+}
+@keyframes zoom-out-2 {
+    0% {
+        scale: 1 1;
+        opacity: 100%;
+    }
+    50% {
+        opacity: 20%;
+    }
+    100% {
+        scale: 0.3 0.3;
+        opacity: 0;
+    }
+}
