@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-sm-12">
-                <p class="fs-6 text-dark text-end pe-4" style="font-family: 'Abel', sans-serif;">Wish you all <br> the best</p>
+                <p class="fs-6 text-dark text-end pe-4 wish" style="font-family: 'Abel', sans-serif;">Wish you all <br> the best</p>
             </div>
         </div>
         <img src="img/awan-start.png" alt="" class="awan-start">

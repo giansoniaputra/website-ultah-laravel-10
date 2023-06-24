@@ -120,6 +120,10 @@
     opacity: 0;
 }
 
+.wish {
+    opacity: 0;
+}
+
 @keyframes zoom-in {
     0% {
         scale: 0.3 0.3;
@@ -203,9 +207,11 @@
 @keyframes luar-kanan {
     0% {
         left : 200px;
+        transform: rotate(-40deg);
     }
     100% {
         left : 0;
+        transform: rotate(0);
     }
 }
 @keyframes luar-kanan-love {

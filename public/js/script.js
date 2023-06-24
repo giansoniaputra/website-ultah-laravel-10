@@ -39,6 +39,11 @@ $(document).ready(function () {
         right: 0,
     });
     setTimeout(function () {
+        $(".foto-sampul").css({
+            transform: "rotate(0)",
+        });
+    }, 1700);
+    setTimeout(function () {
         $(".happy").css({
             animation: "cenat-cenut 2s ease-in-out infinite",
         });
@@ -53,6 +58,13 @@ $(document).ready(function () {
         $(".kupu-kupu2").css({
             opacity: "100%",
             animation: "pudar 1.5s ease-in-out",
+        });
+        $(".wish").css({
+            opacity: "100%",
+            animation: "pudar 1.5s ease-in-out",
+        });
+        $(".foto-sampul").css({
+            transform: "rotate(0)",
         });
     }, 1500);
     setTimeout(function () {
