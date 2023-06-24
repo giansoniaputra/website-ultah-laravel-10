@@ -12,48 +12,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
     <title>ULTAH</title>
 </head>
 <body>
-
     <div class="container-fluid d-flex justify-content-center pt-4" id="background">
-        <div class="card border-0 transparan-card" id="first-card">
-            <div class="card-body d-flex justify-content-center">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-sm-12 pt-5">
-                        <p class="happy text-center">Happy Birtday</p>
-                    </div>
-                    <div class="col-sm-12" id="photo">
-                        <img src="/img/gian.png" class="img-thumbnail rounded-circle" alt="...">
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="card text-white rounded-pill">
-                            <div class="card-body rounded-pill" style="background-color:#ffa502">
-                                <marquee class="nama text-center">Nafisa Sya'ban Mubarok </marquee>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-12 pt-5">
+                <p class="happy text-center" style="padding: 0">Happy Birtday</p>
+            </div>
+            <div id="kerangka" class="d-flex justify-content-center">
+                <div class="col-sm-12" id="photo">
+                    <img src="/img/love.png" class="img-fluid love" alt="..." width="200vh">
+                    <img src="/img/gian.jpeg" class="img-fluid foto-bayangan" alt="...">
+                    <img src="/img/gian.jpeg" class="img-fluid foto-sampul" alt="...">
+                    <img src="/img/bintang.png" class="img-fluid foto-bintang" alt="...">
+                    <p class="nama">Nafisa</p>
                 </div>
             </div>
-        </div>
-        <div class="card border-0 transparan-card" id="second-card" style="display: none">
-            <div class="card-body d-flex justify-content-center">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-sm-12 pt-5">
-                        <p class="happy text-center">Happy Birtday</p>
-                    </div>
-                    <div class="col-sm-12" id="photo">
-                        <img src="/img/gian.png" class="img-thumbnail rounded-circle" alt="...">
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="nama text-center">Nafisa Sya'ban Mubarok </div>
-                    </div>
-                </div>
+            <div class="col-sm-12">
+                <p class="fs-6 text-dark text-end pe-4" style="font-family: 'Abel', sans-serif;">Wish you all <br> the best</p>
             </div>
         </div>
+        <img src="img/awan-start.png" alt="" class="awan-start">
+        <img src="img/awan-end.png" alt="" class="awan-end">
+        <img src="img/kupu-kupu.png" alt="" class="kupu-kupu">
+        <img src="img/kupu-kupu.png" alt="" class="kupu-kupu2">
     </div>
-    <div id="navigasi">
+    <div id=" navigasi">
         <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4">
             <button class="btn border-0 d-none" id="previous">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
