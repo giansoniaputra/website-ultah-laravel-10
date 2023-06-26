@@ -27,8 +27,8 @@
             <div id="kerangka" class="d-flex justify-content-center">
                 <div class="col-sm-12" id="photo">
                     <img src="/img/love.png" class="img-fluid love" alt="..." width="200vh">
-                    <img src="/img/gian.jpeg" class="img-fluid foto-bayangan" alt="...">
-                    <img src="/img/gian.jpeg" class="img-fluid foto-sampul" alt="...">
+                    <img src="/img/gian.jpg" class="img-fluid foto-bayangan" alt="...">
+                    <img src="/img/gian.jpg" class="img-fluid foto-sampul" alt="...">
                     <img src="/img/bintang.png" class="img-fluid foto-bintang" alt="...">
                     <p class="nama">Nafisa</p>
                 </div>
